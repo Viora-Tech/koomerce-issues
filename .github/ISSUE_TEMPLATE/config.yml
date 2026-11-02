@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://docs.koomerce.app
+    about: Guides for merchants and developers. Many questions are answered here.
+  - name: Private or security report
+    url: mailto:support@koomerce.app
+    about: Store details, customer data or a security problem. Email us; don't post it publicly.
+  - name: Service status
+    url: https://status.koomerce.app
+    about: Check whether Koomerce is having an outage.

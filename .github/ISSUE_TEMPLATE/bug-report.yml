@@ -1,0 +1,59 @@
+name: Bug report
+description: Something in Koomerce doesn't work the way it should.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! This issue is **public**: leave out passwords, API keys, payment
+        details and any customer's name, email, phone or address. Blur them in screenshots.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where did it happen?
+      options:
+        - Admin (store dashboard)
+        - Online store (what shoppers see)
+        - Checkout or payments
+        - Orders, shipping or delivery
+        - Products or inventory
+        - Marketing or Growth
+        - Apps or integrations
+        - Imported Shopify theme
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What went wrong?
+      description: What you saw, and what you expected to see instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we see it happen?
+      description: The steps, one per line.
+      placeholder: |
+        1. Go to Products → Inventory
+        2. Tick two rows and choose Bulk edit
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page address
+      description: The part after the domain is enough, for example `/stock/inventory`.
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      placeholder: Chrome on Windows, Safari on iPhone…
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag images here. Blur any private details first.
