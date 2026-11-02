@@ -4,7 +4,7 @@ contact_links:
     url: https://docs.koomerce.app
     about: Guides for merchants and developers. Many questions are answered here.
   - name: Private or security report
-    url: mailto:support@koomerce.app
+    url: https://github.com/Viora-Tech/koomerce-issues#before-you-post
     about: Store details, customer data or a security problem. Email us; don't post it publicly.
   - name: Service status
     url: https://status.koomerce.app
